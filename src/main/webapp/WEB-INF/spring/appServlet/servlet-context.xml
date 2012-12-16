@@ -43,6 +43,10 @@
 	<!-- Imports user-defined @Controller beans that process client requests -->
 	<beans:import resource="controllers.xml" />
 
+    <!-- Imports jade config -->
+    <beans:import resource="jade.xml" />
+
+
 	<task:annotation-driven />
 	
 </beans:beans>
